@@ -1,0 +1,67 @@
+
+
+/*.container {
+    height: 600px;
+    
+}*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.navigacija ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navi1{
+    gap: 20px;
+    /*align-items: center;*/
+    text-align: center;
+    justify-content: space-between;
+
+}
+.container-a1{
+    height: 800px;
+    background-image: url(bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.scrol {
+
+}
+
+.container-a2{
+    height: 800px;
+    background-color: rgb(152, 172, 172);
+}
+.container-a3{
+    height: 600px;
+    background-color: rgb(107, 141, 250);
+
+}
+.container-a4{
+    height: 700px;
+    background-color: rgb(206, 206, 78);
+}
+.container-a5{
+    height: 600px;
+    background-color: aqua;
+}
+.container-a6{
+    height: 600px;
+    background-color: rgb(228, 130, 179);
+
+}
+.container-a7{
+    height: 800px;
+    background-color: grey;
+}
+.container-a7-1{
+    height: 800px;
+    background-color: rgb(103, 163, 172);
+}
