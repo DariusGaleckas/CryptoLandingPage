@@ -4,64 +4,218 @@
     height: 600px;
     
 }*/
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    /*align-items: center;*/
-}
-.navigacija ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+
+*{
+    box-sizing: border-box;
+padding-left: 25px;
+padding-right: 25px;
 
 }
-.navi1{
-    gap: 20px;
-    /*align-items: center;*/
-    text-align: center;
-    justify-content: space-between;
 
-}
 .container-a1{
+    width: 100%;
+    color: white;
     height: 800px;
     background-image: url(bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
 
 }
+.logotipas {
+    margin-top: 20px;
+}
+header {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    
+
+}
+.navigacija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.navigacija ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navi a{
+    color: rgb(255, 255, 255);
+    
+}
+.button {
+    margin-top: 20px;
+}
+.btn{
+    
+    
+}
+
+
+.container-a1-vidus{
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+    
+
+}
+
 .scrol {
 
 }
+.ease {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 
 .container-a2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 800px;
-    background-color: rgb(152, 172, 172);
+    width: 100%;
+    background-color:#1B004E;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
 }
 .container-a3{
-    height: 600px;
-    background-color: rgb(107, 141, 250);
+width: 100%;
+    background-color:#FFF6FB;
+}
+.container-a3 h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.container-a4{
+    display: flex;
+
+    height: 700px;
+    background-color: #1B004E;
+}
+.text4{
+    color: white;
+    font-size: 32px;
+    line-height: 48px;
 
 }
-.container-a4{
-    height: 700px;
-    background-color: rgb(206, 206, 78);
+.text4 btn3-btn4{
+    /*display: flex;
+    justify-content: space-between;*/
 }
+.shape{
+padding-right: 200px;
+}
+
 .container-a5{
     height: 600px;
-    background-color: aqua;
+    background-color: #FFF6FB;
 }
-.container-a6{
-    height: 600px;
-    background-color: rgb(228, 130, 179);
+.container-a5 h1{
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
 
 }
-.container-a7{
-    height: 800px;
-    background-color: grey;
+.container-a6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-color:#1B004E;
+
 }
-.container-a7-1{
-    height: 800px;
-    background-color: rgb(103, 163, 172);
+.container-a6 h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+}
+.email1{
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 74px;
+    width: 578px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.email1 input{
+    background-color: #1b004e;
+    border: none;
+    color: white;
+    
+
+    
+
+}
+.container-a6 button{
+    width: 139px;
+    height: 62px;
+    border-radius: 31px;
+    background-color: rgba(235, 87, 87, 1);
+    border: none;
+    color: white;
+}
+.container-a6 h6{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+}
+.container-a7{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+}
+.container-a7 div h3{
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.container-a7 div h6{
+    color:rgba(230, 230, 230, 1);
+    font-size: 17px;
+    line-height: 24px;
+    /*pakeisti h6 i "p"*/
+
+}
+.footer{
+    color:rgba(230, 230, 230, 1);
+
+
+}
+
+.test {
+    width: 100%;
+    height: 500px;
+    background-color: #4E0062;
+    color: wheat;
+    display: flex;
+    justify-content: center;/*i6centruoja*/
+    align-items: center;
 }
