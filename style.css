@@ -57,23 +57,20 @@ header {
 .button {
     margin-top: 20px;
 }
-.btn{
-    
-    
-}
+/*.btn{
+       
+}*/
 
 
 .container-a1-vidus{
     display: flex;
     flex-direction: column;
     z-index: 9999;
-    
+    }
 
-}
+/*.scrol {
 
-.scrol {
-
-}
+}*/
 .ease {
     width: 100%;
     display: flex;
@@ -118,12 +115,11 @@ width: 100%;
     color: white;
     font-size: 32px;
     line-height: 48px;
-
 }
-.text4 btn3-btn4{
-    /*display: flex;
-    justify-content: space-between;*/
-}
+/*.text4 btn3-btn4{
+    display: flex;
+    justify-content: space-between;
+}*/
 .shape{
 padding-right: 200px;
 }
@@ -168,6 +164,7 @@ padding-right: 200px;
     background-color: #1b004e;
     border: none;
     color: white;
+    /*wi*/
     
 
     
@@ -223,4 +220,6 @@ padding-right: 200px;
 }
 .test ul{
     list-style: none;
+    /*size: 10px;*/
+    /*color: white;*/
 }
